@@ -1,0 +1,5 @@
+# m h dom mon dow command
+0 20 * * 1-4 /home/eduardo/proyect/cronpush.sh
+1 20 * * 1-4 /home/eduardo/proyect/cronpull.sh
+
+30 17 * * 5 /home/eduardo/proyect/cronpush.sh
