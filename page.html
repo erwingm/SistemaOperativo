@@ -34,7 +34,13 @@
   </div>
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here --></div>
-  </main>
+	<div id="p1" class="mdl-progress mdl-js-progress"></div>
+<script>
+  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(44);
+  });
+</script>  
+</main>
 </div>
  
 
